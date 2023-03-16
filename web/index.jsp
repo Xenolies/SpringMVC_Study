@@ -13,9 +13,9 @@
   <body>
           <div align="center">
               未注册用户请点击这里:
-              <a href="${pageContext.request.contextPage}/register">注册</a>
+              <a href="${pageContext.request.contextPath}/register">注册</a>
               已注册用户点击这里:
-              <a href="${pageContext.request.contextPage}/login">登录</a>
+              <a href="${pageContext.request.contextPath}/login">登录</a>
           </div>
   </body>
 </html>
